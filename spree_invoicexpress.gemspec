@@ -3,11 +3,11 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_invoicexpress'
   s.version     = '3.0.10'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'InvoiceXpress plugin'
+  s.description = 'InvoiceXpress plugin'
   s.required_ruby_version = '>= 2.1.0'
 
-  # s.author    = 'You'
+  s.author    = 'Inlogic, Lda'
   # s.email     = 'you@example.com'
   # s.homepage  = 'http://www.spreecommerce.com'
   s.license = 'BSD-3'
