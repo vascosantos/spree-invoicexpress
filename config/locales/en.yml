@@ -4,3 +4,5 @@
 en:
   spree:
     invoicexpress: InvoiceXpress
+    could_not_update_invoicexpress: Could not update InvoiceXpress
+    could_not_create_invoicexpress: Could not create InvoiceXpress

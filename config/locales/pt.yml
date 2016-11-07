@@ -1,3 +1,5 @@
 pt:
   spree:
     invoicexpress: InvoiceXpress
+    could_not_update_invoicexpress: Não foi possível atualizar InvoiceXpress
+    could_not_create_invoicexpress: Não foi possível criar InvoiceXpress
