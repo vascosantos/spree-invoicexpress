@@ -1,0 +1,22 @@
+- content_for :page_title do
+  = Spree.t(:edit_invoicexpress_config)
+
+= form_for @invoicexpress_config, url: admin_invoicexpress_config_path, method: :patch do |f|
+  %div{'data-hook' => "admin_invoicexpress_config_form_fields"}
+    .row
+      .col-md-6
+        .form-group{'data-hook' => "environment"}
+          = f.label :account_name, Spree.t(:invoicexpress_config_account_name)
+          = f.text_field :account_name, class: 'form-control'
+    .row
+      .col-md-6
+        .form-group{'data-hook' => "environment"}
+          = f.label :api_key, Spree.t(:invoicexpress_config_api_key)
+          = f.text_field :api_key, class: 'form-control'
+    
+    .form-actions{'data-hook' => "buttons"}
+      - if @invoicexpress_config.new_record?
+        = button Spree.t('actions.create'), 'ok', 'submit', {class: 'btn-success'}
+      - else
+        = button Spree.t('actions.update'), 'refresh', 'submit', {class: 'btn-success'}
+

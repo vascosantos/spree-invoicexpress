@@ -1,5 +1,7 @@
 pt:
   spree:
-    invoicexpress: InvoiceXpress
-    could_not_update_invoicexpress: Não foi possível atualizar InvoiceXpress
-    could_not_create_invoicexpress: Não foi possível criar InvoiceXpress
+    invoicexpress_config: InvoiceXpress config
+    could_not_update_invoicexpress_config: Não foi possível atualizar InvoiceXpress config
+    could_not_create_invoicexpress_config: Não foi possível criar InvoiceXpress config
+    invoicexpress_config_account_name: Nome de conta
+    invoicexpress_config_api_key: API key

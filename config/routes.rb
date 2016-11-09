@@ -2,7 +2,7 @@ Spree::Core::Engine.routes.draw do
   # Add your extension routes here
 
   namespace :admin do
-    get '/invoicexpress/edit', to: 'invoicexpress#edit', as: 'edit_invoicexpress'
-    patch '/invoicexpress/update', to: 'invoicexpress#update', as: 'invoicexpress'
+    get '/invoicexpress_config/edit', to: 'invoicexpress_config#edit', as: 'edit_invoicexpress_config'
+    patch '/invoicexpress_config/update', to: 'invoicexpress_config#update', as: 'invoicexpress_config'
   end
 end

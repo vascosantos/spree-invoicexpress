@@ -3,6 +3,8 @@
 
 en:
   spree:
-    invoicexpress: InvoiceXpress
-    could_not_update_invoicexpress: Could not update InvoiceXpress
-    could_not_create_invoicexpress: Could not create InvoiceXpress
+    invoicexpress_config: InvoiceXpress config
+    could_not_update_invoicexpress_config: Could not update InvoiceXpress config
+    could_not_create_invoicexpress_config: Could not create InvoiceXpress config
+    invoicexpress_config_account_name: Account name
+    invoicexpress_config_api_key: API key
