@@ -4,13 +4,6 @@ module Spree
 
       def edit
         @invoicexpress_config = Spree::InvoicexpressConfig.first || Spree::InvoicexpressConfig.new
-
-        client = Invoicexpress::Client.new(
-          account_name: @invoicexpress_config.account_name,
-          api_key: @invoicexpress_config.api_key
-        )
-
-        @invoices = client.invoices.invoices
       end
 
       def update
